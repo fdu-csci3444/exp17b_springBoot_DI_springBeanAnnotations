@@ -13,3 +13,24 @@ Example project showing
 	- property Injection (see exp17b.di.dis.ServiceUser_viaPropertyInjection and ServiceUsersUser)
 	- setter injection (see exp17b.di.dis.ServiceUser_viaSetterInjection)
 	- constructor injection (see exp17b.di.dis.ServiceUser_viaConstuctorInjection)
+
+## to clone and then import project
+- if you have windows laptop, make sure gitbash is installed. Then open gitbash
+- if you have mac, open Terminal
+- issue below to clone the projects
+```bash
+cd /c/fdu/csci3444/projects
+git clone https://github.com/fdu-csci3444/exp17b_springBoot_DI_springBeanAnnotations.git
+```
+- import the project to STS
+	- File -> Import -> General -> Projects from Folder or Archive
+	- select above cloned project
+
+## to run the project in STS
+- make sure maven dependencies are made available to project
+	- right click on project, Maven, Update project
+- to run project
+	- right click on project, Run as, Java Application
+	- or
+	- right click on project, Run as, Spring Boot App
+
