@@ -51,10 +51,13 @@ public class Config4Persons {
 	}
 	
 	@Bean
+	// NOTE ilker below is equivalent to above line. By default below method name is used as name value of @Bean
+//	@Bean(name="personBean2")	
 	public Person personBean2() {
 		return new PersonBean2(person2name, person2age);
 	}
 	
+//	@Bean
 	@Bean(name = "personBean3")
 	public Person personBean3Creator() {
 		return new PersonBean3(person3name, person3age);

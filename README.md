@@ -26,6 +26,24 @@ git clone https://github.com/fdu-csci3444/exp17b_springBoot_DI_springBeanAnnotat
 	- File -> Import -> General -> Projects from Folder or Archive
 	- select above cloned project
 
+## to directly import project from github into STS
+- 1st copy the github url of the remote project
+Go to github link
+ https://github.com/fdu-csci3444/exp17b_springBoot_DI_springBeanAnnotations.git
+   click "Clone or Download" pull down button, click "book" icon to the right of the github  
+   url
+
+- import directly from github url into STS
+File --> Import --> Git --> Project from Git
+ click Next
+   Clone URI
+     click Next (the github url should be auto filled, if you had clicked the "book" icon above
+       click Next
+        choose remote branch (master should be auto picked)
+          click Next
+            choose "Destination" "Directory" for the project to be created in
+              click Finish
+
 ## to run the project in STS
 - make sure maven dependencies are made available to project
 	- right click on project, Maven, Update project
