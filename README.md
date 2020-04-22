@@ -5,7 +5,7 @@ Example project showing
 	- @Service (see exp17b.di.dis.services)
 - Declaring classes to become a "Spring Bean" via @Bean;
 	- in @Configuration (see exp17b.di.bean.configs.Config4Person)
-	- in @Component (see exp17b.di.bean.configs.Component4Person)
+	- in @Component (see exp17b.di.bean.components.Component4Person)
 - DI of @Bean beans via property injection;
 	- @Bean used in @Configuration (see exp17b.di.bean.PersonBeansUser4config)
 	- @Bean used in @Component (see exp17b.di.bean.PersonBeansUser4component)
